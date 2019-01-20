@@ -1,0 +1,25 @@
+{
+  "name": "mychatapp-back",
+  "version": "1.0.0",
+  "description": "express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/errorlogger/chat-application-server.git"
+  },
+  "author": "jean-marc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/errorlogger/chat-application-server/issues"
+  },
+  "homepage": "https://github.com/errorlogger/chat-application-server#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.5",
+    "morgan": "^1.9.1"
+  }
+}
